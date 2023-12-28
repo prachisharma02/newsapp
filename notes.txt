@@ -1,0 +1,24 @@
+ComponentDidMount:It is a lifecycle methbod it is rendered after the render method 
+https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
+
+HOOKS : class features in functional component basically to work with state
+They are of 4 types 
+
+UseState: 
+update the state 
+can set the initial value of state
+
+useEffect:
+its a sideefect for means if we are changing the state  then we want some kind of sideeffect
+example: there is a state variable "text" and when we are changing the state of text then if we want some kind of sideeffect
+like alert (jab state change horaha ho tabhi alert krne k liy useeffect use hota hai)
+just like componentdidUpdate in class based component
+
+useContext: used for context api
+when there are nested components then if we want to send some data to the bottom level component the it become difficult 
+so we make a context that is available to every component equally
+it gobally available to every components
+
+useRef: return mutable reference object called current
+It can be used to store a mutable value that does not cause a re-render when updated.
+It can be used to access a DOM element directly.
